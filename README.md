@@ -1,18 +1,37 @@
 # vue-bs-loadingbar
 
-> A Vue.js project
+> VueJs와 bootstrap를 이용한 간단한 로딩바입니다.  
 
-## Build Setup
+## 설치 
 
-``` bash
-# install dependencies
-npm install
+	yarn add vue-bs-loadingbar --dev
 
-# serve with hot reload at localhost:8080
-npm run dev
+## 설정
 
-# build for production with minification
-npm run build
+```
+import loadingbar from 'vue-bs-loadingbar'
+
+Vue.use( loadingbar )
 ```
 
-For detailed explanation on how things work, consult the [docs for vue-loader](http://vuejs.github.io/vue-loader).
+## Vue
+
+``` 
+//3초후 자동으로 사라짐
+this.showLoadingBar(3000)
+
+//3초후 자동으로 사라짐, 그리고 alert 메세지를 2초간 보여줌
+this.showLoadingBar({milliSec :3000, countDown:2, alertMsg : '응답시간 초과'})
+
+//3초후 자동으로 사라짐, 그리고 alert 메세지를 보여줌
+this.showLoadingBar({milliSec :3000, countDown:2, alertMsg : '응답시간 초과'})
+
+//3초후 자동으로 사라짐, 그리고 alert 메세지를 보여줌
+this.showLoadingBar({milliSec :3000, alertMsg : '응답시간 초과'})
+
+//로딩바를 계속 보여줌
+this.showLoadingBar()
+
+//로딩바가 사라짐
+this.hideLoadingBar()
+```

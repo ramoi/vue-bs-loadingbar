@@ -1,6 +1,6 @@
 {
   "name": "vue-bs-loadingbar",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this is beta version. a loadingbar using vuejs and bootstrap",
   "main": "dist/vue-bs-loadingbar.js",
   "scripts": {
