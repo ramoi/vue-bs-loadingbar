@@ -35,3 +35,5 @@ this.showLoadingBar()
 //로딩바가 사라짐
 this.hideLoadingBar()
 ```
+
+![캡쳐화면](https://github.com/ramoi/vue-bs-loadingbar/blob/master/sampleImg/loadingbar.png)
