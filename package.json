@@ -1,6 +1,6 @@
 {
   "name": "vue-bs-loadingbar",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "this is beta version. a loadingbar using vuejs and bootstrap",
   "main": "dist/vue-bs-loadingbar.js",
   "scripts": {
@@ -45,7 +45,6 @@
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
     "webpack-merge": "^4.1.0"
   }
 }
